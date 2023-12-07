@@ -7,7 +7,6 @@ import 'react-slideshow-image/dist/styles.css'
 import SimpleImageSlider from "react-simple-image-slider";
 import Footer from "../footer";
 import { ThemeProvider } from '@mui/system';
-
 import Paper from '@mui/material/Paper';
 
 
