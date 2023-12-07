@@ -1,0 +1,26 @@
+footer {
+    
+    background-color: rgb(25, 24, 35);
+    
+    color: #ffffff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+    
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+  .p{
+    margin-top: 15px;
+    
+    margin-left: 200px;
+    
+    font-size: 16px;
+    
+  }
+  .a:hover{
+    color: yellowgreen;
+  }

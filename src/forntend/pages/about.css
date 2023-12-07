@@ -1,0 +1,76 @@
+.rounded-border {
+    border: 1px solid #ffb700;
+    text-align: center;
+    color: aliceblue;
+    
+    
+    width: 180px;
+    height:60px;
+    margin-top: -650px;
+    margin-left: 150px;
+    
+    
+  }
+  p1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+    
+  }
+  .about{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 650px;
+    color: aliceblue;
+    text-align:justify;
+
+  }
+
+  p2{
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
+    color: rgb(201, 144, 0);
+    
+  }
+  p3{
+    font-size: 20px;
+    margin-top: 1cm;
+    margin-left: 150px;
+    margin-right: 250px;
+    color: aliceblue;
+      
+  }
+  p4{
+    font-size: 20px;
+    margin-top: 1cm;
+    margin-left: 60px;
+    margin-right: 250px;
+    color: aliceblue;
+      
+  }
+  p5{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 250px;
+    color: rgb(201, 144, 0);
+    
+  }
+  p6{
+    font-size: 20px;
+    margin-top: 1cm;
+    margin-left: 50px;
+    margin-right: 250px;
+    color: aliceblue;
+      
+  }
+  .img{
+    opacity: 30%;
+    margin-left: 450px;
+    z-index: -1;
+    
+  }
