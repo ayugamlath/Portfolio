@@ -140,7 +140,47 @@ export default function Home() {
             <Grid Item xs={3} sx={{marginLeft:'100px',marginBottom:'7px',marginTop:'5px',borderRadius:'18px'}}>
             <Grid container justifyContent="center" spacing={spacing}>
                 
-            {[0, 1, 2].map((value) => (
+            {[0, ].map((value) => (
+            <Grid key={value} item>
+              <Paper
+                sx={{
+                  height: 140,
+                  width: 400,
+                  backgroundColor: 'transparent',
+                  border: '1px solid #ffb700',
+                  '&:hover': {bgcolor: 'gray',flexGrow: 3},
+                  
+                }}
+              >
+                <p className="ui1">
+                <img src={cap} height='20px' alt="" style={{marginRight:'18px'}}></img>
+                  FULLSTACK DEVELOPMENT
+                   
+                   </p>
+              </Paper>
+            </Grid>
+          ))}
+          {[1, ].map((value) => (
+            <Grid key={value} item>
+              <Paper
+                sx={{
+                  height: 140,
+                  width: 400,
+                  backgroundColor: 'transparent',
+                  border: '1px solid #ffb700',
+                  '&:hover': {bgcolor: 'gray',flexGrow: 3},
+                  
+                }}
+              >
+                <p className="ui1">
+                <img src={cap} height='20px' alt="" style={{marginRight:'18px'}}></img>
+                    GRAPHIC DESIGNING
+                   
+                   </p>
+              </Paper>
+            </Grid>
+          ))}
+          {[2 ].map((value) => (
             <Grid key={value} item>
               <Paper
                 sx={{
